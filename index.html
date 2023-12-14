@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Candy Stock</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Candy Stock Manageent</h1>
+        <form id="itemForm">
+            <input type="text" id="name" placeholder="Item Name">
+            <input type="text" id="description" placeholder="Item Description">
+            <input type="number" id="Price" placeholder="Item Price">
+            <input type="number" id="Quantity" placeholder="Item Quantity">
+            <button class="btn" type="submit">Submit</button>
+        </form>
+        <div class="msg"></div>
+        <ul id="items"></ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
